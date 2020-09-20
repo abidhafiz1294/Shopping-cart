@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css"
+        integrity="sha512-EZLkOqwILORob+p0BXZc+Vm3RgJBOe1Iq/0fiI7r/wJgzOFZMlsqTa29UEl6v6U6gsV4uIpsNZoV32YZqrCRCQ=="
+        crossorigin="anonymous" />
+
+    <title>Cart Project</title>
+
+</head>
+
+<body>
+    <div class="container">
+        <table  class="u-full-width">
+
+            <thead>
+                <tr>
+                    <th>Books Name</th>
+                    <th>Price</th>
+                    <th> Action </th>
+                </tr>
+            </thead>
+            <tbody id="name" >
+                <tr>
+                    <td class="Books-name">Javascript Programming</td>
+                    <td class="price">$20</td>
+                    <td class="btn-for-cart" data-id="1">
+                        <a href="#"  >Add to Cart</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="Books-name">Learn Web Design</td>
+                    <td class="price">$40</td>
+                    <td class="btn-for-cart"data-id="2">
+                        <a href="#" >Add to Cart </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="Books-name">Introduction of Web Development</td>
+                    <td class="price">$50</td>
+                    <td class="btn-for-cart" data-id="3">
+                        <a href="#" >Add to Cart</a>
+                    </td>
+                </tr>
+
+            </tbody>
+
+        </table>
+
+        <Div>
+            <H5>Cart List</H5>
+        </Div>
+        <div>
+            <table class="u-full-width">
+                <thead >
+                    <div>
+                    <tr>
+                        <th>Product Name </th>
+                        <th>Price</th>
+                        <th>Remove</th>
+                    </tr>
+                </div>
+                    
+                </thead>
+                <tbody class="u-full-width" id="cartBody">
+
+
+                </tbody>
+            </table>
+        </div>
+
+
+
+
+    </div>
+    <script src="javascript.js"></script>
+
+</body>
+
+</html>
